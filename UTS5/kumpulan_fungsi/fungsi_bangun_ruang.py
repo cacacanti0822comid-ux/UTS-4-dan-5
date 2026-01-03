@@ -35,18 +35,6 @@ def limas_segiempat(p, l, t):
 def torus(r, R):
     return 2 * math.pi**2 * R * r**2, 4 * math.pi**2 * R * r
 
-rumus_bangun_ruang = {
-    "kubus": kubus,
-    "balok": balok,
-    "prisma_segitiga": prisma_segitiga,
-    "limas_segitiga": limas_segitiga,
-    "tabung": tabung,
-    "kerucut": kerucut,
-    "bola": bola,
-    "prisma_segiempat": prisma_segiempat,
-    "limas_segiempat": limas_segiempat,
-    "torus": torus,
-}
 
 def hitung_bangun_ruang(nama, *args):
     
