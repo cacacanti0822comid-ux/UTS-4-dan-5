@@ -52,11 +52,6 @@ def total_sks(daftar_sks):
     return total
 
 #4.logika_huruf.py——————————————————
-#def total_nilai(daftar_nilai_sks):
-  #  total = 0
-   # for nilai in daftar_nilai_sks:
-   #     total += nilai
-   # return total
 def konversi_nilai_ke_ipk(nilai: int) -> float:
     if 85 <= nilai <= 100:
         return 4
